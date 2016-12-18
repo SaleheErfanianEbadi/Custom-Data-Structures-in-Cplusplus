@@ -8,11 +8,11 @@ int main() {
 
 	Stack Sally;
 
-	Sally.Push("Salehe", 1);
-	Sally.Push("Mohammad", 2);
-	Sally.Push("Fatemeh", 3);
-	Sally.Push("Saeedeh", 4);
-	Sally.Push("Amir", 5);
+	Sally.Push("Justin", 1);
+	Sally.Push("Dorothy", 2);
+	Sally.Push("Rob", 3);
+	Sally.Push("Hank", 4);
+	Sally.Push("Susan", 5);
 
 	Sally.Print();
 
@@ -35,11 +35,11 @@ int main() {
 	Sally.Pop();
 
 	cout << endl << endl << "New stack" << endl;
-	Sally.Push("Facebook", 1);
+	Sally.Push("RIchard", 1);
 	Sally.Print();
 
 	cout << endl << endl << "New stack" << endl;
-	Sally.Push("Oculus", 1);
+	Sally.Push("Geremy", 1);
 	Sally.Print();
 
 	return 0;
